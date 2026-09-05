@@ -63,7 +63,7 @@ TARGET_INCLUDE_DIRECTORIES(ElmerGrid PRIVATE
 #
 # See ElmerCSC/elmerfem#899 for what enabling this is ultimately for.
 # ---------------------------------------------------------------------------
-OPTION(ELMERGRID_WITH_MATC "Build ElmerGrid with MATC expression support" OFF)
+OPTION(ELMERGRID_WITH_MATC "Build ElmerGrid with MATC expression support" ON)
 
 IF(ELMERGRID_WITH_MATC AND NOT TARGET matc)
   MESSAGE(WARNING

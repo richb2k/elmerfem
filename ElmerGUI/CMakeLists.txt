@@ -15,6 +15,7 @@ SET(WITH_PARAVIEW FALSE CACHE BOOL "ElmerGUI: Use ParaView for postprocessing?")
 SET(WITH_VTK FALSE CACHE BOOL "ElmerGUI: Use VTK for postprocessing?")
 SET(WITH_QWT TRUE CACHE BOOL "ElmerGUI: Use QWT for convergence monitor?")
 SET(WITH_ELMERGUILOGGER FALSE CACHE BOOL "ElmerGUI: Include ElmerGUIlogger")
+SET(WITH_QT6 FALSE CACHE BOOL "ElmerGUI: Use QT6")
 
 IF( NOT WITH_QT6)
   find_package(Qt5 COMPONENTS Widgets)
