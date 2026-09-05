@@ -10,7 +10,7 @@ ENDIF()
 
 SET(WITH_PYTHONQT FALSE CACHE BOOL "ElmerGUI: Use PythonQt for scripting in post processor?")
 SET(WITH_OCC FALSE CACHE BOOL "ElmerGUI: Use OpenCASCADE for importing CAD files? Needs VTK.")
-SET(WITH_MATC FALSE CACHE BOOL "ElmerGUI: Use MATC for internal operations in postprocessing?")
+SET(WITH_MATC TRUE CACHE BOOL "ElmerGUI: Use MATC for internal operations in postprocessing?")
 SET(WITH_PARAVIEW FALSE CACHE BOOL "ElmerGUI: Use ParaView for postprocessing?")
 SET(WITH_VTK FALSE CACHE BOOL "ElmerGUI: Use VTK for postprocessing?")
 SET(WITH_QWT TRUE CACHE BOOL "ElmerGUI: Use QWT for convergence monitor?")
